@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EBEFF3091E8480AB00F07497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFF3081E8480AB00F07497 /* AppDelegate.swift */; };
-		EBEFF30B1E8480AB00F07497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFF30A1E8480AB00F07497 /* ViewController.swift */; };
 		EBEFF30E1E8480AB00F07497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEFF30C1E8480AB00F07497 /* Main.storyboard */; };
 		EBEFF3101E8480AB00F07497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEFF30F1E8480AB00F07497 /* Assets.xcassets */; };
 		EBEFF3131E8480AB00F07497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEFF3111E8480AB00F07497 /* LaunchScreen.storyboard */; };
 		EBEFF31E1E8480AB00F07497 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFF31D1E8480AB00F07497 /* CanvasTests.swift */; };
 		EBEFF3291E8480AB00F07497 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFF3281E8480AB00F07497 /* CanvasUITests.swift */; };
+		EBEFF3371E84812700F07497 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEFF3361E84812700F07497 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		EBEFF3051E8480AB00F07497 /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEFF3081E8480AB00F07497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBEFF30A1E8480AB00F07497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBEFF30D1E8480AB00F07497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBEFF30F1E8480AB00F07497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEFF3121E8480AB00F07497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		EBEFF3241E8480AB00F07497 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEFF3281E8480AB00F07497 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		EBEFF32A1E8480AB00F07497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEFF3361E84812700F07497 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EBEFF3081E8480AB00F07497 /* AppDelegate.swift */,
-				EBEFF30A1E8480AB00F07497 /* ViewController.swift */,
+				EBEFF3361E84812700F07497 /* CanvasViewController.swift */,
 				EBEFF30C1E8480AB00F07497 /* Main.storyboard */,
 				EBEFF30F1E8480AB00F07497 /* Assets.xcassets */,
 				EBEFF3111E8480AB00F07497 /* LaunchScreen.storyboard */,
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					EBEFF3041E8480AB00F07497 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QANYNE4FM7;
 						ProvisioningStyle = Automatic;
 					};
 					EBEFF3181E8480AB00F07497 = {
@@ -259,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBEFF30B1E8480AB00F07497 /* ViewController.swift in Sources */,
+				EBEFF3371E84812700F07497 /* CanvasViewController.swift in Sources */,
 				EBEFF3091E8480AB00F07497 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QANYNE4FM7;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ArcCotagent.Canvas;
@@ -422,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QANYNE4FM7;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ArcCotagent.Canvas;
@@ -503,6 +506,7 @@
 				EBEFF32F1E8480AB00F07497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBEFF3301E8480AB00F07497 /* Build configuration list for PBXNativeTarget "CanvasTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +515,7 @@
 				EBEFF3321E8480AB00F07497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBEFF3331E8480AB00F07497 /* Build configuration list for PBXNativeTarget "CanvasUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				EBEFF3351E8480AB00F07497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
