@@ -2,7 +2,7 @@
 
 **Animation App
 
-Submitted by: **Szu Kai Yang,Ya-Wen Chu, Arthur Wang**
+Submitted by: **Szu Kai Yang,Ya-Wen Chu, Arthur Wu**
 
 Time spent: **2** hours spend in total 
 
@@ -16,7 +16,7 @@ GIF created with [Giphy](http://www.giphy.com).
 
 ## License
 
-    Copyright [2017] [Szu Kai Yang & Ya-Wen Chu & Arthur Wang]
+    Copyright [2017] [Szu Kai Yang & Ya-Wen Chu & Arthur Wu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
